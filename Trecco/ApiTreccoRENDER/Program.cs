@@ -14,7 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 // CONEXÃO COM O BANCO
 /* postgresql://postgres:[YOUR-PASSWORD]@db.dswzcnohgqeudhicxhen.supabase.co:5432/postgres */
 // var connectionString = "Host=db.dswzcnohgqeudhicxhen.supabase.co;Port=5432;Database=postgres;Username=postgres;Password=DBportfolio1333!@;SslMode=Require";
-var connectionString = "Host=db.dswzcnohgqeudhicxhen.supabase.co;Port=5432;Database=postgres;Username=postgres;Password=DBportfolio1333!@;SslMode=Require;Keepalive=30;TcpKeepAlive=true;";
+var connectionString = "Host=db.dswzcnohgqeudhicxhen.supabase.co;Port=5432;Database=postgres;Username=postgres;Password=DBportfolio1333!@;SslMode=Require;Keepalive=30;";
 builder.Services.AddDbContext<ConexaoContexto>(options =>
     options.UseNpgsql(connectionString)
 );

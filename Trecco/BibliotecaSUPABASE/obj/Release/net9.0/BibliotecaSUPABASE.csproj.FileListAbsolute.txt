@@ -1,0 +1,15 @@
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\bin\Release\net9.0\BibliotecaSUPABASE.deps.json
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\bin\Release\net9.0\BibliotecaSUPABASE.runtimeconfig.json
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\bin\Release\net9.0\BibliotecaSUPABASE.dll
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\bin\Release\net9.0\BibliotecaSUPABASE.pdb
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\BibliotecaSUPABASE.csproj.AssemblyReference.cache
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\BibliotecaSUPABASE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\BibliotecaSUPABASE.AssemblyInfoInputs.cache
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\BibliotecaSUPABASE.AssemblyInfo.cs
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\BibliotecaSUPABASE.csproj.CoreCompileInputs.cache
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\BibliotecaSUPABASE.sourcelink.json
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\BibliotecaSUPABASE.dll
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\refint\BibliotecaSUPABASE.dll
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\BibliotecaSUPABASE.pdb
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\BibliotecaSUPABASE.genruntimeconfig.cache
+C:\Users\Mol\Documents\GitHub\Trecco\Trecco\Trecco\BibliotecaSUPABASE\obj\Release\net9.0\ref\BibliotecaSUPABASE.dll

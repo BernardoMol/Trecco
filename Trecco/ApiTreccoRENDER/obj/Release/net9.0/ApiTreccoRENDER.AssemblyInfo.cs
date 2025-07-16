@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiTreccoRENDER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed092e287e75f5780150407e440aa1396f989ca7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5f8c90b5606776332c1293184487a984639c945")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiTreccoRENDER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiTreccoRENDER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

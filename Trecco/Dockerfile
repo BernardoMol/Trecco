@@ -1,25 +1,28 @@
 # Stage 1 - Build
-FROM mcr.microsoft.com/dotnet/sdk:9.0-preview AS build
-WORKDIR /app
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
 
-# Copia os projetos necessários
-COPY ./BibliotecaSUPABASE ./BibliotecaSUPABASE
-COPY ./ApiTreccoRENDER ./ApiTreccoRENDER
+# Copia a solution e os projetos
+COPY Trecco.sln ./
+COPY ApiTreccoRENDER/*.csproj ./ApiTreccoRENDER/
+COPY BibliotecaSUPABASE/*.csproj ./BibliotecaSUPABASE/
 
-# Restaura e publica a API
-WORKDIR /app/ApiTreccoRENDER
-RUN dotnet restore
-RUN dotnet publish -c Release -o /app/out
+# Restaura pacotes
+RUN dotnet restore Trecco.sln
+
+# Copia o restante dos arquivos
+COPY ApiTreccoRENDER/. ./ApiTreccoRENDER/
+COPY BibliotecaSUPABASE/. ./BibliotecaSUPABASE/
+
+# Publica o projeto
+WORKDIR /src/ApiTreccoRENDER
+RUN dotnet publish -c Release -o /app/publish
 
 # Stage 2 - Runtime
-FROM mcr.microsoft.com/dotnet/aspnet:9.0-preview
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 
-# Copia a aplicação publicada
-COPY --from=build /app/out .
+COPY --from=build /app/publish .
 
-# 🔥 Garante que os appsettings.json sejam copiados — caso o publish falhe
-COPY ./ApiTreccoRENDER/appsettings.json .
-COPY ./ApiTreccoRENDER/appsettings.Development.json .
-
+EXPOSE 80
 ENTRYPOINT ["dotnet", "ApiTreccoRENDER.dll"]

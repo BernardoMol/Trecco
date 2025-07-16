@@ -12,8 +12,8 @@
           "BibliotecaSUPABASE": "1.0.0",
           "CloudinaryDotNet": "1.27.6",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.5",
-          "Microsoft.AspNetCore.JsonPatch": "9.0.5",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "9.0.5",
+          "Microsoft.AspNetCore.JsonPatch": "9.0.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "9.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.4",
           "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.5",
@@ -86,28 +86,28 @@
           "Microsoft.Extensions.Primitives": "9.0.5"
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/9.0.5": {
+      "Microsoft.AspNetCore.JsonPatch/9.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/net9.0/Microsoft.AspNetCore.JsonPatch.dll": {
-            "assemblyVersion": "9.0.5.0",
-            "fileVersion": "9.0.525.22904"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52903"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.5": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "9.0.5",
+          "Microsoft.AspNetCore.JsonPatch": "9.0.0",
           "Newtonsoft.Json": "13.0.3",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
           "lib/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "9.0.5.0",
-            "fileVersion": "9.0.525.22904"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52903"
           }
         }
       },
@@ -1339,19 +1339,19 @@
       "path": "microsoft.aspnetcore.http.features/2.3.0",
       "hashPath": "microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.JsonPatch/9.0.5": {
+    "Microsoft.AspNetCore.JsonPatch/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-crPPD4YCnv4YFoHN7zXdwkvegn5VH3MILfTfXCZKAM8TF5c9J1hMLV5fEahH2fW1FVxvU6YjH0poQqKvff3ZUw==",
-      "path": "microsoft.aspnetcore.jsonpatch/9.0.5",
-      "hashPath": "microsoft.aspnetcore.jsonpatch.9.0.5.nupkg.sha512"
+      "sha512": "sha512-/4UONYoAIeexPoAmbzBPkVGA6KAY7t0BM+1sr0fKss2V1ERCdcM+Llub4X5Ma+LJ60oPp6KzM0e3j+Pp/JHCNw==",
+      "path": "microsoft.aspnetcore.jsonpatch/9.0.0",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.9.0.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.5": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7NkMM4CaHhmOg3GgXgbVB9CU8PiJvvgW3ykr3yXnt/NlePP9P7QuP365FPv/4LupoQEbDyPVbME3I+zrH02uRg==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/9.0.5",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.9.0.5.nupkg.sha512"
+      "sha512": "sha512-pTFDEmZi3GheCSPrBxzyE63+d5unln2vYldo/nOm1xet/4rpEk2oJYcwpclPQ13E+LZBF9XixkgwYTUwqznlWg==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/9.0.0",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.9.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/9.0.4": {
       "type": "package",

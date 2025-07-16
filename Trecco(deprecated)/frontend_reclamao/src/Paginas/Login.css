@@ -1,0 +1,90 @@
+/* Seu CSS existente */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* muda para empilhar verticalmente */
+  justify-content: center; /* centraliza verticalmente */
+  align-items: center; /* centraliza horizontalmente */
+  background-color: #f3f4f6;
+}
+
+.welcome-banner {
+  width: 300px;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.7);
+}
+
+.login-box {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-input:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem; /* Adicionado um espaçamento abaixo do botão de login */
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #1a4fbf; /* Escurece um pouco no hover */
+}
+
+/* Novo estilo para o botão de registro */
+.register-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #6c757d; /* Um cinza para diferenciar, ou sua cor preferida */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem; /* Espaçamento acima do botão de registro */
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #5a6268; /* Escurece um pouco no hover */
+}
+
+.login-forgot {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.login-link {
+  color: #2563eb;
+  text-decoration: underline;
+}

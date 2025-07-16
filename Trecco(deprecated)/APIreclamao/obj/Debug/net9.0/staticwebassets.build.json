@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "Q7TRh/Ads2p3NzO7w3XVIzp6jBWaKeccP3zsxqp5ikQ=",
+  "Source": "APIreclamao",
+  "BasePath": "_content/APIreclamao",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "APIreclamao\\wwwroot",
+      "Source": "APIreclamao",
+      "ContentRoot": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\",
+      "BasePath": "_content/APIreclamao",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\imagens_perfis\\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "SourceId": "APIreclamao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\",
+      "BasePath": "_content/APIreclamao",
+      "RelativePath": "imagens_perfis/3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5kkfh4yomh",
+      "Integrity": "1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens_perfis\\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\imagens_perfis\\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "SourceId": "APIreclamao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\",
+      "BasePath": "_content/APIreclamao",
+      "RelativePath": "imagens_perfis/f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5kkfh4yomh",
+      "Integrity": "1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens_perfis\\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "imagens_perfis/3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.5kkfh4yomh.jpeg",
+      "AssetFile": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\imagens_perfis\\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 17:16:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5kkfh4yomh"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens_perfis/3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o="
+        }
+      ]
+    },
+    {
+      "Route": "imagens_perfis/3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "AssetFile": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\imagens_perfis\\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 17:16:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o="
+        }
+      ]
+    },
+    {
+      "Route": "imagens_perfis/f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.5kkfh4yomh.jpeg",
+      "AssetFile": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\imagens_perfis\\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 17:16:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5kkfh4yomh"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens_perfis/f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o="
+        }
+      ]
+    },
+    {
+      "Route": "imagens_perfis/f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "AssetFile": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\imagens_perfis\\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Jun 2025 17:16:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o="
+        }
+      ]
+    }
+  ]
+}

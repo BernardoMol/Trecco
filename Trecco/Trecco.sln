@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTreccoRENDER", "ApiTreccoRENDER\ApiTreccoRENDER.csproj", "{3E9E7B6D-DFB5-0C8F-3399-260A4C11B07D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaSUPABASE", "BibliotecaSUPABASE\BibliotecaSUPABASE.csproj", "{2ED370D5-A8AC-9E70-1230-CFBC9091BFDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9E7B6D-DFB5-0C8F-3399-260A4C11B07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9E7B6D-DFB5-0C8F-3399-260A4C11B07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9E7B6D-DFB5-0C8F-3399-260A4C11B07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9E7B6D-DFB5-0C8F-3399-260A4C11B07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED370D5-A8AC-9E70-1230-CFBC9091BFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED370D5-A8AC-9E70-1230-CFBC9091BFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED370D5-A8AC-9E70-1230-CFBC9091BFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED370D5-A8AC-9E70-1230-CFBC9091BFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FD32E6C-8ACF-46CE-9B4A-FC7ECBC7E8DF}
+	EndGlobalSection
+EndGlobal

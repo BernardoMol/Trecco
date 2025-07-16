@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens_perfis\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>APIreclamao</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/APIreclamao</BasePath>
+      <RelativePath>imagens_perfis/3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5kkfh4yomh</Fingerprint>
+      <Integrity>1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens_perfis\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens_perfis\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>APIreclamao</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/APIreclamao</BasePath>
+      <RelativePath>imagens_perfis/f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5kkfh4yomh</Fingerprint>
+      <Integrity>1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens_perfis\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

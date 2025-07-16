@@ -1,0 +1,6 @@
+@ApiTreccoRENDER_HostAddress = http://localhost:5233
+
+GET {{ApiTreccoRENDER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

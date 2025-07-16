@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\imagens_perfis\\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "PackagePath": "staticwebassets\\imagens_perfis\\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Portfolio\\Trecco\\APIreclamao\\wwwroot\\imagens_perfis\\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg",
+      "PackagePath": "staticwebassets\\imagens_perfis\\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.APIreclamao.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.APIreclamao.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.APIreclamao.props",
+      "PackagePath": "build\\APIreclamao.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.APIreclamao.props",
+      "PackagePath": "buildMultiTargeting\\APIreclamao.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.APIreclamao.props",
+      "PackagePath": "buildTransitive\\APIreclamao.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

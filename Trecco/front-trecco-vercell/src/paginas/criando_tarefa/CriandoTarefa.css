@@ -1,0 +1,62 @@
+.container_pagina_tarefa{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg-login);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner__Tarefa{
+    width: 400px;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.7);
+}
+
+
+
+.container_tarefa{
+    height: 300px;
+    width: 400px;
+    background-color: grey;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-de-digitação{
+    height: 300px;
+    width: 400px;
+}
+
+.botoes-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.enviar-btn{
+    height: 30px;
+    width: 100px;
+    
+    background-color: green;
+    color: white;
+    border-radius: 10%;
+}
+
+.cancelar-btn{
+    height: 30px;
+    width: 100px;
+
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+}

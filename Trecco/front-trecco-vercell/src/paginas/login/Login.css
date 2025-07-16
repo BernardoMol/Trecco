@@ -1,0 +1,8 @@
+.container__card{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* muda para empilhar verticalmente */
+    justify-content: center; /* centraliza verticalmente */
+    align-items: center; /* centraliza horizontalmente */
+    background-color: var(--bg-login)
+}

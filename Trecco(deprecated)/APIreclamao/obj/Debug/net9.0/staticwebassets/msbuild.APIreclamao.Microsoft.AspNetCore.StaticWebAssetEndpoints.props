@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/APIreclamao/imagens_perfis/3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.5kkfh4yomh.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens_perfis\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5kkfh4yomh"},{"Name":"integrity","Value":"sha256-1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o="},{"Name":"label","Value":"_content/APIreclamao/imagens_perfis/3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"154649"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 17:16:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/APIreclamao/imagens_perfis/3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens_perfis\3df16d7b-536b-4d26-b3ce-2bf2b70d735d_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"154649"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 17:16:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/APIreclamao/imagens_perfis/f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.5kkfh4yomh.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens_perfis\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5kkfh4yomh"},{"Name":"integrity","Value":"sha256-1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o="},{"Name":"label","Value":"_content/APIreclamao/imagens_perfis/f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"154649"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 17:16:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/APIreclamao/imagens_perfis/f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens_perfis\f215a236-1f50-4c2e-aace-39c7376bf6cd_WhatsApp_Image_2025-06-05_at_20.57.30.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"154649"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221XY5a5Hgap86INT0c1XnhkfiyVIkt77IWRlwUfUaX9o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 17:16:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

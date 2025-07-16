@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OgvoyG5eG1A=",
+  "dgSpecHash": "NnKmo2jTAtk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Trecco\\BibliotecaSUPABASE\\BibliotecaSUPABASE.csproj",
+  "projectFilePath": "C:\\Users\\Mol\\Documents\\GitHub\\Trecco\\Trecco\\Trecco\\BibliotecaSUPABASE\\BibliotecaSUPABASE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mol\\.nuget\\packages\\cloudinarydotnet\\1.27.6\\cloudinarydotnet.1.27.6.nupkg.sha512",
     "C:\\Users\\Mol\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

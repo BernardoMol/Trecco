@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1d77noTr+qU=",
+  "dgSpecHash": "vYaUmR0oJGo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Trecco\\ApiTreccoRENDER\\ApiTreccoRENDER.csproj",
+  "projectFilePath": "C:\\Users\\Mol\\Documents\\GitHub\\Trecco\\Trecco\\Trecco\\ApiTreccoRENDER\\ApiTreccoRENDER.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mol\\.nuget\\packages\\bcrypt.net-next\\4.0.0\\bcrypt.net-next.4.0.0.nupkg.sha512",
     "C:\\Users\\Mol\\.nuget\\packages\\cloudinarydotnet\\1.27.6\\cloudinarydotnet.1.27.6.nupkg.sha512",

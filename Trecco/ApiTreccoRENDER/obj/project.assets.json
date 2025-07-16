@@ -6981,11 +6981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Trecco\\ApiTreccoRENDER\\ApiTreccoRENDER.csproj",
+      "projectUniqueName": "C:\\Users\\Mol\\Documents\\GitHub\\Trecco\\Trecco\\Trecco\\ApiTreccoRENDER\\ApiTreccoRENDER.csproj",
       "projectName": "ApiTreccoRENDER",
-      "projectPath": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Trecco\\ApiTreccoRENDER\\ApiTreccoRENDER.csproj",
+      "projectPath": "C:\\Users\\Mol\\Documents\\GitHub\\Trecco\\Trecco\\Trecco\\ApiTreccoRENDER\\ApiTreccoRENDER.csproj",
       "packagesPath": "C:\\Users\\Mol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Trecco\\ApiTreccoRENDER\\obj\\",
+      "outputPath": "C:\\Users\\Mol\\Documents\\GitHub\\Trecco\\Trecco\\Trecco\\ApiTreccoRENDER\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7006,8 +7006,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Trecco\\BibliotecaSUPABASE\\BibliotecaSUPABASE.csproj": {
-              "projectPath": "C:\\Users\\Mol\\Documents\\GitHub\\Portfolio\\Trecco\\BibliotecaSUPABASE\\BibliotecaSUPABASE.csproj"
+            "C:\\Users\\Mol\\Documents\\GitHub\\Trecco\\Trecco\\Trecco\\BibliotecaSUPABASE\\BibliotecaSUPABASE.csproj": {
+              "projectPath": "C:\\Users\\Mol\\Documents\\GitHub\\Trecco\\Trecco\\Trecco\\BibliotecaSUPABASE\\BibliotecaSUPABASE.csproj"
             }
           }
         }

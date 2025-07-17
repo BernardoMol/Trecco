@@ -124,14 +124,15 @@ builder.Services.AddScoped<EmailService>();
 
 // ==============================BUILDANDO O APP================================================
 var app = builder.Build();
-app.UseCors();  
-// app.UseCors("AllowAll");            
+
 app.UseHttpsRedirection();
 
-app.UseAuthentication();   
-app.UseAuthorization();    
+app.UseCors();  // Antes de tudo 
 
-app.MapControllers();      
+app.UseAuthentication();   // Depois do CORS
+app.UseAuthorization();
+
+app.MapControllers();      // Sempre depois do Auth
 
 app.UseSwagger();  
 app.UseSwaggerUI(c =>

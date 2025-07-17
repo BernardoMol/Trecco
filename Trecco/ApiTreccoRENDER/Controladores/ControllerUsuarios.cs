@@ -185,6 +185,8 @@ namespace ApiTreccoRENDER.Controladores
         {
             // Você pode usar User diretamente aqui!
             var id = User.Claims.FirstOrDefault(c => c.Type == "UsuarioId")?.Value;
+            cosole.WriteLine("meu id");
+            cosole.WriteLine(id);
 
             if (string.IsNullOrEmpty(id))
                 return Unauthorized();

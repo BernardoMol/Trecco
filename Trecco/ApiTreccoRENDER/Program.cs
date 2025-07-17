@@ -116,6 +116,8 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<EmailService>();
 
 // ==============================BUILDANDO O APP================================================
+var app = builder.Build();
+
 app.UseCors();            
 app.UseHttpsRedirection();
 

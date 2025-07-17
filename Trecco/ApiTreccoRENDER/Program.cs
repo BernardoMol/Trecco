@@ -91,25 +91,32 @@ builder.Services.AddSingleton(new Cloudinary(new Account(
 )));
 
 // O CORS CHATO PRA CARAMBAAAAAAAAAA
+// builder.Services.AddCors(options =>
+// {
+
+//     options.AddDefaultPolicy(policy =>
+//     {
+//         policy
+//             .WithOrigins("https://trecco.vercel.app")
+//             .AllowAnyHeader()
+//             .AllowAnyMethod();
+//     });
+
+
+//     options.AddPolicy("Desenvolvimento", policy =>
+//     {
+//         policy
+//             .AllowAnyOrigin()
+//             .AllowAnyHeader()
+//             .AllowAnyMethod();
+//     });
+// });
 builder.Services.AddCors(options =>
 {
-
-    options.AddDefaultPolicy(policy =>
-    {
-        policy
-            .WithOrigins("https://trecco.vercel.app")
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
-
-
-    options.AddPolicy("Desenvolvimento", policy =>
-    {
-        policy
-            .AllowAnyOrigin()
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
+    options.AddPolicy("AllowAll",
+        builder => builder.AllowAnyOrigin()
+                          .AllowAnyHeader()
+                          .AllowAnyMethod());
 });
 builder.Services.AddControllers();
 // EMAIL

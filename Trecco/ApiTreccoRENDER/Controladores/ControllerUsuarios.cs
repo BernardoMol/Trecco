@@ -179,6 +179,40 @@ namespace ApiTreccoRENDER.Controladores
             return Ok(usuario);
         }
 
+        [Authorize]
+        [HttpGet("Usuario_Buscar_MeuPerfil")]
+        public async Task<IActionResult> BuscarMeuPerfil()
+        {
+            // Você pode usar User diretamente aqui!
+            var id = User.Claims.FirstOrDefault(c => c.Type == "UsuarioId")?.Value;
+
+            if (string.IsNullOrEmpty(id))
+                return Unauthorized();
+
+            var usuario = await _context.Usuarios
+                .Include(u => u.Tarefas)
+                .FirstOrDefaultAsync(u => u.UsuarioId == id);
+
+            if (usuario == null)
+                return NotFound();
+
+            var dto = new UsuarioGetDTO
+            {
+                UsuarioId = usuario.UsuarioId,
+                NomeUsuario = usuario.NomeUsuario,
+                EmailUsuario = usuario.EmailUsuario,
+                ImagemUsuario = usuario.ImagemUsuario,
+                Tarefas = usuario.Tarefas.Select(t => new TarefaGetDTO
+                {
+                    IdTarefa = t.IdTarefa,
+                    ConteudoTarefa = t.ConteudoTarefa,
+                    DataCriacaoTarefa = t.DataCriacaoTarefa
+                }).ToList()
+            };
+
+            return Ok(dto);
+        }
+
 
         #region sem imagem
         // [Authorize]

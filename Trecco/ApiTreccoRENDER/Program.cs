@@ -117,8 +117,7 @@ builder.Services.AddScoped<EmailService>();
 
 // ==============================BUILDANDO O APP================================================
 var app = builder.Build();
-app.UseCors();
-// CORS precisa vir antes de Auth/Controllers
+app.UseCors(); // CORS precisa vir antes de Auth/Controllers
 app.UseHttpsRedirection();
 // CONTROLADORES
 app.MapControllers();

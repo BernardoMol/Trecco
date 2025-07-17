@@ -93,6 +93,16 @@ builder.Services.AddSingleton(new Cloudinary(new Account(
 // O CORS CHATO PRA CARAMBAAAAAAAAAA
 builder.Services.AddCors(options =>
 {
+
+    options.AddDefaultPolicy(policy =>
+    {
+        policy
+            .WithOrigins("https://trecco.vercel.app")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+
+
     options.AddPolicy("Desenvolvimento", policy =>
     {
         policy
@@ -107,7 +117,7 @@ builder.Services.AddScoped<EmailService>();
 
 // ==============================BUILDANDO O APP================================================
 var app = builder.Build();
-app.UseCors("Desenvolvimento");
+app.UseCors();
 // CORS precisa vir antes de Auth/Controllers
 app.UseHttpsRedirection();
 // CONTROLADORES

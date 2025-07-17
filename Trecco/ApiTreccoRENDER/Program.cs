@@ -116,22 +116,21 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<EmailService>();
 
 // ==============================BUILDANDO O APP================================================
-var app = builder.Build();
-app.UseCors(); // CORS precisa vir antes de Auth/Controllers
+app.UseCors();            
 app.UseHttpsRedirection();
-// CONTROLADORES
-app.MapControllers();
-// SWAGGER
-app.UseSwagger();
+
+app.UseAuthentication();   
+app.UseAuthorization();    
+
+app.MapControllers();      
+
+app.UseSwagger();  
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Minha API v1");
     c.RoutePrefix = string.Empty;
 });
-// JWT
-app.UseAuthentication(); // 👈 ATENÇÃO: sempre antes do Authorization
-app.UseAuthorization();
-// TestarConexaoBanco(app.Services);
+
 app.Run();
 
 // // Função auxiliar para testar conexão

@@ -125,7 +125,7 @@ builder.Services.AddScoped<EmailService>();
 // ==============================BUILDANDO O APP================================================
 var app = builder.Build();
 
-app.UseCors();            
+app.UseCors("AllowAll");            
 app.UseHttpsRedirection();
 
 app.UseAuthentication();   

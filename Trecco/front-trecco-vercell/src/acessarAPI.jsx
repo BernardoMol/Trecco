@@ -15,7 +15,9 @@
 
 
 // const baseUrl = 'https://SEU_BACKEND.com/api';
-const baseUrl = 'http://localhost:5233/api';
+// const baseUrl = 'http://localhost:5233/api';
+
+const baseUrl = import.meta.env.VITE_API_URL;
 
 export async function AcessarAPI(endpoint, options) {
   const response = await fetch(`${baseUrl}${endpoint}`, options);

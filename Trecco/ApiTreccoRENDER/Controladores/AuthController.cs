@@ -38,7 +38,7 @@ namespace ApiTreccoRENDER.Controladores
             {
                 return Unauthorized("Email ou senha inválidos.");
             }
-
+            Console.WriteLine("login feito mensagem da api");  
             // 2 - GERO O TOKEN com a chave do program.cs
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes("minhaCHAVEsecretaTEMqueSERgrandeSEnaoDApauNAautenticacaoNOlogin2025!@!");

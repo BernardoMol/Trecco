@@ -15,7 +15,8 @@ var builder = WebApplication.CreateBuilder(args);
 /* postgresql://postgres:[YOUR-PASSWORD]@db.dswzcnohgqeudhicxhen.supabase.co:5432/postgres */
 // var connectionString = "Host=db.dswzcnohgqeudhicxhen.supabase.co;Port=5432;Database=postgres;Username=postgres;Password=DBportfolio1333!@;SslMode=Require";
 // var connectionString = "Host=db.dswzcnohgqeudhicxhen.supabase.co;Port=5432;Database=postgres;Username=postgres;Password=DBportfolio1333!@;SslMode=Require;Keepalive=30;";
-var connectionString = "Host=aws-0-sa-east-1.pooler.supabase.com;Port=6543;Database=postgres;Username=postgres.dswzcnohgqeudhicxhen;Password=DBportfolio1333!@;SslMode=Require";
+// var connectionString = "Host=aws-0-sa-east-1.pooler.supabase.com;Port=6543;Database=postgres;Username=postgres.dswzcnohgqeudhicxhen;Password=DBportfolio1333!@;SslMode=Require";
+var connectionString = "Host=aws-0-sa-east-1.pooler.supabase.com;Port=5432;Database=postgres;Username=postgres.dswzcnohgqeudhicxhen;Password=DBportfolio1333!@;SslMode=Require;Pooling=true;CommandTimeout=60;";
 builder.Services.AddDbContext<ConexaoContexto>(options =>
     options.UseNpgsql(connectionString)
 );
@@ -91,41 +92,40 @@ builder.Services.AddSingleton(new Cloudinary(new Account(
 )));
 
 // O CORS CHATO PRA CARAMBAAAAAAAAAA
-// builder.Services.AddCors(options =>
-// {
-
-//     options.AddDefaultPolicy(policy =>
-//     {
-//         policy
-//             .WithOrigins("https://trecco.vercel.app")
-//             .AllowAnyHeader()
-//             .AllowAnyMethod();
-//     });
-
-
-//     options.AddPolicy("Desenvolvimento", policy =>
-//     {
-//         policy
-//             .AllowAnyOrigin()
-//             .AllowAnyHeader()
-//             .AllowAnyMethod();
-//     });
-// });
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        builder => builder.AllowAnyOrigin()
-                          .AllowAnyHeader()
-                          .AllowAnyMethod());
+
+    options.AddDefaultPolicy(policy =>
+    {
+        policy
+            .WithOrigins("https://trecco.vercel.app")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+
+    options.AddPolicy("Desenvolvimento", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
 });
+// builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy("AllowAll",
+//         builder => builder.AllowAnyOrigin()
+//                           .AllowAnyHeader()
+//                           .AllowAnyMethod());
+// });
 builder.Services.AddControllers();
 // EMAIL
 builder.Services.AddScoped<EmailService>();
 
 // ==============================BUILDANDO O APP================================================
 var app = builder.Build();
-
-app.UseCors("AllowAll");            
+app.UseCors();  
+// app.UseCors("AllowAll");            
 app.UseHttpsRedirection();
 
 app.UseAuthentication();   

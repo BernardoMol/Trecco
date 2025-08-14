@@ -183,7 +183,7 @@ namespace ApiTreccoRENDER.Controladores
         [HttpGet("Usuario_Buscar_MeuPerfil")]
         public async Task<IActionResult> BuscarMeuPerfil()
         {
-            // Você pode usar User diretamente aqui!
+            // Da pra pegar o ID diretamente aqui vindo do TOKEN....doidera
             var id = User.Claims.FirstOrDefault(c => c.Type == "UsuarioId")?.Value;
             Console.WriteLine("meu id");  
             Console.WriteLine(id);        
